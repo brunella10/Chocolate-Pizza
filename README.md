@@ -1,2 +1,2 @@
 # Chocolate-Pizza
-pair projet
+pair project
