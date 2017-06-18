@@ -1,43 +1,113 @@
-*{
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 960px;
+}
+div.clear{
+  clear: both;
+}
+/*
+body {
 
+}*/
+div.textheader {
+    margin-left: 20px;
+}
+div.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 90px;
+}
+
+div.logo {
+  margin: auto;
+  background-color: yellow; /*to see borders*/
+  float: left;
 }
 h1 {
   font-family: 'Yellowtail', cursive;
-  line-height: 2.4em;
+  line-height: 1px;
+  padding-left:5px;
+  margin-left: 0px;
+  padding-top: 10px;
 }
-.textheader {
-  line-height: 10%;
+.i {
+  margin-left: 0px;
 }
-.receipe p {
-  margin-bottom: 5px;
+ h1.title, h5 {
+  float: left;
+  line-height: 1px;
+  font-family: 'Roboto', sans-serif;
 }
-.vanesa /*image*/{
 
+div.social {
+  padding-top: 25px;
+  padding-right: 70px;
+  float: right;
 }
-h2 {
-  /*margin: 10px pink solid;*/
-  /*margin-left: 500px;*/
-  position: absolute;
-  left: 100px;
-  margin-top: -60px;
-  /*top: 10px;*/
 
+div.firstpart {
+  line-height: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  float: left;
 }
-.her
+div.secondpart {
+  line-height: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+h2.name, .vanesa {
+  background-color: green;
+  line-height: 2px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+div.vanesablock{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  float: left;
+}
 button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 22px;
-    font-size: 16px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 0px;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  font-size: 16px;
+  float: right;
 }
-.fork {
+
+.fork2 {
   width: 250px;
   height: 250px;
 
 }
+h6 {
+  line-height: 1.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
 footer {
   display: block;
-  margin: 0px auto;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
