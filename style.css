@@ -1,0 +1,43 @@
+*{
+
+}
+h1 {
+  font-family: 'Yellowtail', cursive;
+  line-height: 2.4em;
+}
+.textheader {
+  line-height: 10%;
+}
+.receipe p {
+  margin-bottom: 5px;
+}
+.vanesa /*image*/{
+
+}
+h2 {
+  /*margin: 10px pink solid;*/
+  /*margin-left: 500px;*/
+  position: absolute;
+  left: 100px;
+  margin-top: -60px;
+  /*top: 10px;*/
+
+}
+.her
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    font-size: 16px;
+}
+.fork {
+  width: 250px;
+  height: 250px;
+
+}
+footer {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
