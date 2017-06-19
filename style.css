@@ -3,111 +3,115 @@ div.container {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 960px;
+  width: 901px;
 }
 div.clear{
   clear: both;
 }
-/*
-body {
-
-}*/
-div.textheader {
-    margin-left: 20px;
+h1.main {
+  font-size: 22px;
 }
-div.header {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-right: 90px;
-}
+span {
+  font-size: 10px;
+  line-height: 1;
 
+}
 div.logo {
   margin: auto;
   background-color: yellow; /*to see borders*/
-  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
+img.fork {
+float: left;
+}
+
+div.textheader {
+  float: left;
+  margin-left: 10px;
+}
+
 h1 {
   font-family: 'Yellowtail', cursive;
   line-height: 1px;
-  padding-left:5px;
-  margin-left: 0px;
-  padding-top: 10px;
-}
-.i {
-  margin-left: 0px;
 }
  h1.title, h5 {
-  float: left;
   line-height: 1px;
   font-family: 'Roboto', sans-serif;
 }
-
+h1.title{
+  margin-top: 70px;
+}
+img.pizzapie {
+}
 div.social {
-  padding-top: 25px;
-  padding-right: 70px;
   float: right;
 }
-
-div.firstpart {
-  line-height: 10px;
-  margin-left: 20px;
-  margin-top: 5px;
-  margin-right: 50px;
+div.recipe {
+  margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+div.list {
+  padding-left: 70px;
+  background-image: url("https://github.com/brunella10/seattle-201d23/blob/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png?raw=true");
+  height: 220px;
+}
+div.firstpart {
   float: left;
+  margin-left: 30px;
+  margin-right:260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
 div.secondpart {
-  line-height: 10px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-h2.name, .vanesa {
-  background-color: green;
-  line-height: 2px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
   float: left;
 }
-div.vanesablock{
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+div.vanesablock {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+img.vanesa {
+  padding: 10px;
+  float: left;
+}
+div.her {
+  line-height: 1.5px;
+  padding-top: 15px;
   float: left;
 }
 button {
   background-color: black;
-  margin-left: 100px;
+  margin-top: 36px;
+  margin-left: 40px;
   margin-right: 0px;
   border: none;
   color: white;
   padding: 10px 22px;
   font-size: 16px;
-  float: right;
 }
-
 .fork2 {
-  width: 250px;
-  height: 250px;
-
 }
-h6 {
-  line-height: 1.5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
 
+h6 {
+  line-height: 1px;
 }
 footer {
   display: block;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 120px;
+}
+hr.style11 {
+	height: 6px;
+	background: url("http://ibrahimjabbari.com/english/images/hr-11.png") repeat-x 0 0;
+  border: 0;
+  margin-top: 30px;
 }
